@@ -311,7 +311,7 @@ main {
     margin-right: auto;
     display: block;
     background: none;
-    color: #f26376;
+    color: $alter-color;
     font-family: inherit;
     font-size: 16px;
     line-height: 19px;
@@ -320,7 +320,7 @@ main {
 
 .feature_products_Btn:hover {
     color: white;
-    background: #ff6a6a;
+    background: $main-color;
     transform: scale(1.2, 1.2);
 }
 .advantages {

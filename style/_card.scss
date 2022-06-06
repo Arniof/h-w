@@ -16,7 +16,7 @@
     display: block;
   }
   .card__overlay {
-    background: rgba(58, 56, 56, 0.86);
+    background: rgba(224, 181, 152, 0.753);
     position: absolute;
     top: 0;
     left: 0;
@@ -41,7 +41,7 @@
          vertical-align: middle;
        }
        &:hover {
-        background-color: rgba(29, 27, 27, 0.904);
+        background-color: rgba(224, 181, 152, 0.753);
        }
     }
   }
@@ -62,7 +62,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #5D5D5D;
+    color: #555555;
     padding-bottom: 18px;
   }
   .card__price {

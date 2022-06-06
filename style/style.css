@@ -17,7 +17,7 @@
 }
 
 .card__overlay {
-  background: rgba(58, 56, 56, 0.86);
+  background: rgba(224, 181, 152, 0.753);
   position: absolute;
   top: 0;
   left: 0;
@@ -56,7 +56,7 @@
 }
 
 .card__overlay .card__btn:hover {
-  background-color: rgba(29, 27, 27, 0.904);
+  background-color: rgba(224, 181, 152, 0.753);
 }
 
 .card:hover .card__overlay {
@@ -78,7 +78,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
-  color: #5D5D5D;
+  color: #555555;
   padding-bottom: 18px;
 }
 
@@ -842,7 +842,7 @@ main {
   margin-right: auto;
   display: block;
   background: none;
-  color: #f26376;
+  color: #555555;
   font-family: inherit;
   font-size: 16px;
   line-height: 19px;
@@ -852,7 +852,7 @@ main {
 
 .feature_products_Btn:hover {
   color: white;
-  background: #ff6a6a;
+  background: #AC8F78;
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
 }
