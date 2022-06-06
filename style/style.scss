@@ -143,24 +143,25 @@ main {
 }
 .promo {
     background-color: #EEE4DA;
+    background-image: url(../img/index_header1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-position-y: bottom;
+    @media (max-width: 425px) {
+      background-image: none;
+      justify-content: center;
+    }
+
 }
 .promo-wrap {
     height: 765px;
-    background-image: url(../img/index_header.png);
-    background-repeat: no-repeat;
-    background-position-x: -226px;
-    background-position-y: bottom;
+    padding-top: 200px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: center;
     position: relative;
-    @media (max-width: 768px) {
-      height: 368px;
-    background-image: url(../img/header_tab1.png);
-    background-repeat: no-repeat;
-    background-position-x: -8px;
-    background-position-y: bottom;
-    }
+   
     @media (max-width: 425px) {
       background-image: none;
       justify-content: center;
@@ -170,10 +171,10 @@ main {
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
-    color: #222222;
+    color: #FFFFFF;
     border-left: 12px solid $main-color;
     padding-left: 16px;
-    margin-right: 90px;
+    margin-right: 350px;
  @media (max-width: 768px) {
     margin-right: 32px;
     font-weight: 900;
@@ -189,7 +190,7 @@ main {
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
-    color: #222222;
+    color: #FFFFFF;
     @media (max-width: 768px) {
       font-size: 24px;
       line-height: 29px;
